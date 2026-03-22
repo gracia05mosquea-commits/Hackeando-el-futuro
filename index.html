@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>GMD Tech Solutions</title>
+
+<link rel="stylesheet" href="estilos.css">
+
+</head>
+
+<body>
+
+<!-- PANTALLA INICIAL -->
+<div id="pantalla-inicio">
+    <h1>Sistema eliminado...</h1>
+    <button onclick="iniciar()">Restaurar empresa</button>
+</div>
+
+<!-- CONTENIDO -->
+<div id="contenido" style="display:none;">
+
+<header>
+    <img src="img/logo.png" alt="logo" class="logo">
+    <h1>GMD Tech Solutions</h1>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="historia.html">Historia</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="catalogo.html">Catálogo</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+</header>
+
+<section class="carrusel">
+
+    <div class="slide">
+        <video autoplay muted loop>
+            <source src="video/video1.mp4" type="video/mp4">
+        </video>
+        <div class="texto">🔐 Protegemos tus datos</div>
+    </div>
+
+    <div class="slide">
+        <video autoplay muted loop>
+            <source src="video/video2.mp4" type="video/mp4">
+        </video>
+        <div class="texto">🌐 Seguridad global</div>
+    </div>
+
+    <div class="slide">
+        <video autoplay muted loop>
+            <source src="video/video3.mp4" type="video/mp4">
+        </video>
+        <div class="texto">🛡️ Defensa contra amenazas</div>
+    </div>
+
+</section>
+<!-- HERO -->
+<section class="hero">
+    <h2>Protegemos tu mundo digital</h2>
+    <p>Soluciones tecnológicas seguras, modernas y hechas a tu medida.</p>
+</section>
+
+<!-- HISTORIA BREVE -->
+<section class="historia">
+    <h2>Nuestra historia</h2>
+    <p>
+        Nuestra empresa fue borrada del mundo digital, pero con esfuerzo, fe y tecnología,
+        logramos reconstruirla desde cero. Hoy somos más fuertes, seguros y preparados.
+    </p>
+</section>
+
+<!-- BOTONES -->
+<section class="acciones">
+    <a href="servicios.html">Ver servicios</a>
+    <a href="historia.html">Conocer historia</a>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>GMD Tech Solutions © 2026</p>
+    <p>Con la guía de Dios, reconstruimos lo que parecía perdido.</p>
+</footer>
+
+</div>
+
+<script>
+function iniciar(){
+    document.getElementById("pantalla-inicio").style.display="none";
+    document.getElementById("contenido").style.display="block";
+}
+</script>
+
+</body>
+</html>
